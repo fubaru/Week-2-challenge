@@ -2,3 +2,13 @@ header {
     border: 1px solid aqua;
     height: 20vh;
 }
+
+figure {
+    border: 1px solid aqua;
+    height: 20vh;
+}
+
+#aboutme {
+    border: 1px solid aqua;
+    height: 30vh;
+}
