@@ -8,6 +8,16 @@ figure {
     height: 20vh;
 }
 
+.nav {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkkhaki;
+    color: azure;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .title {
     flex-basis: 20%;
     border-right-color: black;
