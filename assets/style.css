@@ -8,7 +8,30 @@ figure {
     height: 20vh;
 }
 
+.title {
+    flex-basis: 20%;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.content {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #aboutme {
     border: 1px solid aqua;
     height: 30vh;
+}
+
+#work {
+    border: 1px solid cornflowerblue;
+    height: 20vh;
+}
+
+#aboutme, #work, #contact{
+    display: flex;
+    flex-wrap: wrap;
 }
