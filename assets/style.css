@@ -16,7 +16,7 @@ a {
 .nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkkhaki;
+    background-color: rgba(39, 39, 44, 0.993);
     color: azure;
     /* position: fixed; */
     top: 0;
@@ -27,6 +27,8 @@ a {
     display: inline-block;
     font-size: 48px;
     margin-top: 20px;
+    margin-left: 80px;
+    background-color: aquamarine;
 }
 
 .nav nav {
