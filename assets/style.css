@@ -28,10 +28,21 @@ figure {
 
 #work {
     border: 1px solid cornflowerblue;
-    height: 20vh;
+    height: 100vh;
 }
 
 #aboutme, #work, #contact{
     display: flex;
     flex-wrap: wrap;
+}
+
+#first-pic{
+    flex-basis: 100%;
+    border: 1px solid olive;
+    height: 60vh;
+}
+
+#contact{
+    border: 1px solid aqua;
+    height: 20vh;
 }
