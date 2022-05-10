@@ -6,6 +6,7 @@ header {
 figure {
     border: 1px solid aqua;
     height: 20vh;
+    background-image: url(./green-1846861_960_720.jpg);
 }
 
 a {
@@ -28,7 +29,7 @@ a {
     font-size: 48px;
     margin-top: 20px;
     margin-left: 80px;
-    background-color: aquamarine;
+    background-color: darkturquoise;
 }
 
 .nav nav {
