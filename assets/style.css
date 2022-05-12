@@ -2,7 +2,6 @@ header {
     border: 1px solid aqua;
     height: 15vh;
     display: flex;
-    
 }
 
 header nav {
@@ -25,11 +24,11 @@ a {
 
 .text {
     position: absolute;
-    color: black;
+    color: rgb(48, 46, 46);
     bottom: 30px;
     right: 100px;
     font-size: 40px;
-    background-color: aqua;
+    background-color: skyblue;
 }
 
 .nav {
@@ -46,14 +45,15 @@ a {
     flex-basis: 20%;
     font-size: 48px;
     margin-top: 20px;
-   
+    color: black;
    
 }
 .title{
-    background-color: darkturquoise;
+    background-color: skyblue;
     width: 100%;
     padding-right: 100px;
     height: 0px;
+    text-align: end;
 }
 
 .nav nav {
