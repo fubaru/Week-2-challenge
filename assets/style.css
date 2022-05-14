@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+/* nav style */
+section {
+    margin: 1%;
+    padding: .5em;
+}
+
 header {
     border: 1px solid aqua;
     height: 15vh;
@@ -51,9 +60,8 @@ a {
 .title{
     background-color: skyblue;
     width: 100%;
-    padding-right: 100px;
     height: 0px;
-    text-align: end;
+    padding-left: 1em;
 }
 
 .nav nav {
@@ -76,14 +84,24 @@ a {
 }
 
 .section-title {
-    flex-basis: 20%;
-    border-right-color: black;
-    border-right-width: 1px;
+    flex-basis: 18%;
+    border-right-color: rgb(41, 125, 158);
+    border-right-width: 10px;
     border-right-style: solid;
 }
 
+.section-title::before {
+    content: " ";
+    margin-top: 100px;
+}
+
+.section-title::after {
+    content: " ";
+    margin-bottom: 100px;
+}
+
 .content {
-    flex-basis: 80%;
+    flex-basis: 78%;
     display: flex;
     flex-wrap: wrap;
 }
