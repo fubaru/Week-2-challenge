@@ -90,24 +90,22 @@ a {
     border-right-style: solid;
 }
 
-.section-title::before {
-    content: " ";
-    margin-top: 100px;
-}
-
-.section-title::after {
-    content: " ";
-    margin-bottom: 100px;
-}
-
 .content {
     flex-basis: 78%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.smaller-pic {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    background-image: url(./cup-of-coffee-gbdb2741b7_1920.jpg);
+    margin: 2px;
+}
+
 #aboutme {
-    border: 1px solid aqua;
+
     height: 30vh;
 }
 
@@ -118,13 +116,14 @@ a {
 
 #aboutme, #work, #contact{
     display: flex;
-    flex-wrap: wrap;
 }
 
 #first-pic{
-    flex-basis: 100%;
-    border: 1px solid olive;
-    height: 60vh;
+    position: relative;
+    height: 50vh;
+    margin: 2px;
+    background-image: url(./job-g06292c530_1920.jpg);
+    width: 150vh
 }
 
 #contact{
