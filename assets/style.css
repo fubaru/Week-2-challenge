@@ -3,8 +3,8 @@
 }
 
 section {
-    margin: 1%;
-    padding: .5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 header {
@@ -53,11 +53,12 @@ a {
 .nav h1 {
     flex-basis: 20%;
     font-size: 48px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: black;
-   
+
 }
-.title{
+
+.title {
     background-color: skyblue;
     width: 100%;
     height: 0px;
@@ -70,38 +71,57 @@ a {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    
+
 }
 
 .nav nav ul {
-   list-style-type: none;
-   
+    list-style-type: none;
+
 }
 
 .nav nav ul li {
-  display: inline-block;
-    margin: 50px 20px 0 0;
+    display: inline-block;
+    margin: 35px 20px 0 0;
 }
 
 .section-title {
-    flex-basis: 18%;
+    flex-basis: 20%;
     border-right-color: rgb(41, 125, 158);
     border-right-width: 10px;
     border-right-style: solid;
 }
 
 .content {
-    flex-basis: 78%;
+    flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .smaller-pic {
-    display: flex;
-    flex-wrap: wrap;
-    height: 10vh;
     background-image: url(./cup-of-coffee-gbdb2741b7_1920.jpg);
     margin: 2px;
+    background-size: cover;
+    width: 100%;
+}
+
+.section-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.section-images #big-pic {
+    width: 100%;
+
+}
+
+.section-images .pictures {
+    width: 50%;
+}
+
+.columnTitle {
+    font-size: 36px;
+    margin-right: 15px;
 }
 
 #aboutme {
@@ -111,22 +131,27 @@ a {
 
 #work {
     border: 1px solid cornflowerblue;
-    height: 100vh;
+
 }
 
-#aboutme, #work, #contact{
+#aboutme,
+#work,
+#contact {
     display: flex;
+    text-align: right;
 }
 
-#first-pic{
-    position: relative;
-    height: 50vh;
+
+#first-pic {
+
     margin: 2px;
     background-image: url(./job-g06292c530_1920.jpg);
-    width: 150vh
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
 }
 
-#contact{
+#contact {
     border: 1px solid aqua;
     height: 20vh;
 }
