@@ -162,6 +162,11 @@ a {
     height: 60vh;
 }
 
+.pictures:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: .5;
+}
+
 #contact {
     height: 20vh;
 }
