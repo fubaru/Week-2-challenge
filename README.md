@@ -19,5 +19,5 @@ Followed instructions from bootcamp module's challenge description: https://cour
 
 ## Badges
 
-![badmath](https://img.shields.io/badge/HTML-60.3%25-orange)
-![badmath](https://img.shields.io/badge/CSS-39.7%25-purple)
+![badmath](https://img.shields.io/badge/HTML-53.5%25-orange)
+![badmath](https://img.shields.io/badge/CSS-46.5%25-purple)
